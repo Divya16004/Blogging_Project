@@ -1,0 +1,24 @@
+@media screen and (max-width:769px){
+    #navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: fixed;
+      top: 90px;
+      right: -800px;
+      width: 100%;
+      height: 100vh;
+      background: #5f535396;
+      box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+      background-color: black;
+    }
+    #navbar.active{
+      right: 0px;
+    }
+    #navbar li{
+      margin-bottom: 25px;
+    }
+}
